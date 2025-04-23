@@ -64,6 +64,14 @@ This means:
 
 These results demonstrate the system's high reliability in real-world whisky identification scenarios.
 
+## Demo Video
+
+
+
+https://github.com/user-attachments/assets/335bbc19-aa3e-4cdb-93f1-3b2a65e1b294
+
+
+
 ## Limitations
 
 - Performance may vary depending on image quality, lighting, and angle
