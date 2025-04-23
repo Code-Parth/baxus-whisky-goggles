@@ -1,0 +1,7 @@
+streamlit 
+faiss-cpu 
+pandas 
+pillow 
+tensorflow 
+tqdm
+matplotlib
