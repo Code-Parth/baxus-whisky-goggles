@@ -2,6 +2,8 @@
 
 A computer vision system that scans whisky bottle labels and matches them to a database of 501 bottles, allowing users to quickly identify bottles and record pricing information at liquor stores.
 
+<p><a href="https://colab.research.google.com/github/Code-Parth/baxus-whisky-goggles/blob/master/Baxus-Whisky-Goggles.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
+
 ## System Architecture
 
 ![System-Architecture](https://github.com/user-attachments/assets/bd9c0b25-f80a-4c64-99e6-7c5e7e3eec26)
