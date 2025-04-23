@@ -2,8 +2,6 @@
 
 A computer vision system that scans whisky bottle labels and matches them to a database of 501 bottles, allowing users to quickly identify bottles and record pricing information at liquor stores.
 
-<p><a href="https://colab.research.google.com/github/Code-Parth/baxus-whisky-goggles/blob/master/Baxus-Whisky-Goggles.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
-
 ## System Architecture
 
 ![System-Architecture](https://github.com/user-attachments/assets/bd9c0b25-f80a-4c64-99e6-7c5e7e3eec26)
@@ -15,10 +13,39 @@ Whisky Goggles uses deep learning and similarity search to recognize whisky bott
 
 ## Features
 
-- **Bottle Recognition**: Identify whisky bottles from images
-- **High Accuracy**: Uses state-of-the-art computer vision techniques
-- **Fast Matching**: Efficient similarity search using FAISS
-- **Confidence Scores**: Provides match probability for results
+- **Upload or Camera**: Choose between uploading an image or using your device's camera
+- **Bottle Recognition**: Instantly identify bottles with a single click
+- **Visual Results**: See confidence scores visualized as bar charts
+- **Detailed Information**: View comprehensive bottle details in a table format
+- **Multiple Models**: Switch between different trained models
+- **Download Results**: Save recognition results for later reference
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Code-Parth/baxus-whisky-goggles.git
+cd baxus-whisky-goggles
+```
+
+
+```bash
+# Install dependencies
+python3.12 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+```bash
+python data_classification.py 501-Bottle-Dataset.csv
+```
+
+```bash
+streamlit run app.py
+```
+
+Or run directly in Google Colab using the provided notebook. 
+<p><a href="https://colab.research.google.com/github/Code-Parth/baxus-whisky-goggles/blob/master/Baxus-Whisky-Goggles.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
 
 ## How It Works
 
