@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 
 ```bash
-python data_classification.py 501-Bottle-Dataset.csv
+python prepare_data.py
 ```
 
 ```bash
