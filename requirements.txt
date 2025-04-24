@@ -5,3 +5,5 @@ pillow
 tensorflow 
 tqdm
 matplotlib
+opencv-python
+numpy
