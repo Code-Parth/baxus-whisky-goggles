@@ -23,23 +23,27 @@ Whisky Goggles uses deep learning and similarity search to recognize whisky bott
 ## Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/Code-Parth/baxus-whisky-goggles.git
 cd baxus-whisky-goggles
 ```
 
-
+2. Create and activate a virtual environment:
 ```bash
-# Install dependencies
 python3.12 -m venv venv
-source venv/bin/activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
 pip install -r requirements.txt
 ```
 
+4. Prepare the data:
 ```bash
 python prepare_data.py
 ```
 
+5. Run the application:
 ```bash
 streamlit run app.py
 ```
