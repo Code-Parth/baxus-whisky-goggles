@@ -22,6 +22,8 @@ Whisky Goggles uses deep learning and similarity search to recognize whisky bott
 
 ## Installation
 
+1. Clone the repository:
+
 ```bash
 git clone https://github.com/Code-Parth/baxus-whisky-goggles.git
 cd baxus-whisky-goggles
@@ -48,7 +50,7 @@ python prepare_data.py
 streamlit run app.py
 ```
 
-Or run directly in Google Colab using the provided notebook. 
+OR run directly on Google Colab using the provided notebook. 
 <p><a href="https://colab.research.google.com/github/Code-Parth/baxus-whisky-goggles/blob/master/Baxus-Whisky-Goggles.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
 
 ## How It Works
